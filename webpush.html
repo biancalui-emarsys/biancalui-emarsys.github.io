@@ -155,5 +155,16 @@
     console.log('onPermissionGranted');
   }]);
 
+  WebEmarsysSdk.push(function (res) {
+    WebEmarsysSdk.push(['onPermissionGranted', function (res) {
+      console.log('onReady onPermissionGranted');
+    }]);
+  });
+  WebEmarsysSdk.push(['onReady', function (res) {
+    WebEmarsysSdk.push(['onPermissionGranted', function (res) {
+      console.log('"onReady" onPermissionGranted');
+    }]);
+  }]);
+
 </script>
 </html>
