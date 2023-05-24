@@ -95,7 +95,7 @@
 </head>
 
 <body>
-  Version: 2
+  Version: 3
   <div>
     <form action="">
       <label for="appCode">App code:</label>
@@ -164,7 +164,7 @@
   WebEmarsysSdk.push(['onReady', function (res) {
     WebEmarsysSdk.push(['onPermissionGranted', function (res) {
       console.log('"onReady" onPermissionGranted');
-      WebEmarsysSdk.subscribe();
+      // WebEmarsysSdk.subscribe();
     }]);
   }]);
 
