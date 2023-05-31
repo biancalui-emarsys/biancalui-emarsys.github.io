@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appID": "4J5FXBB97U.com.ems.lifestyleLabels2",
+        "paths": ["/lsl/*"]
+      },
+      {
+        "appID": "4J5FXBB97U.com.ems.lifestyleFitness",
+        "paths": ["/lsf/*"]
+      }
+    ]
+  }
+}
