@@ -1,7 +1,7 @@
 {
   "name": "Push Demo B",
   "short_name": "B",
-  "start_url": "https://biancalui-emarsys.github.io/webpush.html?app_code=EMS76-1F1A2",
+  "start_url": "/webpush.html?app_code=EMS76-1F1A2",
   "id": "EMS76-1F1A2",
   "display": "standalone",
   "icons": [
