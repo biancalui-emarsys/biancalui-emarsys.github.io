@@ -1,0 +1,9 @@
+{
+  "short_name": "B",
+  "name": "Push Demo B",
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#bbbbbb",
+  "description": "Push Demo"
+}
